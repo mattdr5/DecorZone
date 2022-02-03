@@ -1,0 +1,99 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+	#carousel-prodotti .header-text{
+		 transform: scale(0.8);
+	}
+	
+	.form-group.error small{
+	font-size:11px;
+	}
+	
+	   .info-contatti .mycontainer .info-box{
+    transform: scale(0.7);
+
+  }
+  
+	#la-nostra-storia{
+	padding-bottom:300px;
+    margin-bottom: 300px;
+  }
+  
+  #la-nostra-storia #text-history{
+    font-size: 14px;
+    margin: 2px;
+  }
+  
+  #myfooter{
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	#la-nostra-storia{
+    padding-bottom: 320px;
+	margin-bottom: 200px;
+	
+  }
+
+  #la-nostra-storia #text-history{
+    font-size: 14px;
+    margin: 2px;
+  }
+  
+  #myfooter{
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+  #la-nostra-storia #text-history{
+    font-size: 14px;
+    margin: 2px;
+  }
+  
+   #myfooter{
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+  }
+	
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+	#la-nostra-storia #text-history{
+    margin: 18px;
+    font-size: 16px;
+	}
+	
+	 #myfooter{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+  }
+}
+  
+  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	
+	#la-nostra-storia #text-history{
+    margin: 18px;
+    font-size: 18px;
+  }
+  
+   

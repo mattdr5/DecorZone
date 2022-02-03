@@ -1,0 +1,1183 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+html, body{
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+/* HEADER */
+
+#myheader{
+	
+	width:100%;
+	background: #809EAD;
+	
+}
+
+
+#myheader .myli .mynav-link{
+    text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+	
+
+}
+
+.mynavbar-center .myli .mynav-link{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 20px;
+
+}
+
+
+.mynavbar-center .myli .mynav-link:hover, .mynavbar-center .myli .mynav-link.active{
+  background: rgb(149,154,143);
+  color: white;
+
+}
+
+.my-toggler
+{
+    padding: 5px;
+     
+}
+
+.my-toggler i{
+	margin: 4px;
+	color: white;
+}
+
+
+.mynavbar-right .myli .mynav-link:hover, .mynavbar-right .myli .mynav-link.active{
+  background: rgb(149,154,143);
+  color: white;
+	
+}
+
+#myheader .mylogo #my-text-logo{
+	color: white;
+  padding-left: 1.5rem;
+  padding-right: 2.5rem;
+   font-size: 2.5rem;
+   margin-bottom: 0;
+   font-weight: bold;
+   line-height: 0;
+   
+  
+}
+
+#myheader .mylogo #my-text-logo a{
+	text-decoration: none;
+	color:white
+}
+
+#myheader .mylogo #my-text-logo #my-text-logo a:hover{
+	color:white
+}
+
+/* SEARCH BAR */
+
+.mysearch-bar{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mysearch-bar:hover{
+	cursor: pointer;
+}
+
+.mysearch-bar .search-txt {
+	padding: 5px;
+	display: none;
+}
+
+
+
+
+
+/* END SEARCH BAR */
+
+
+/* END HEADER*/
+
+
+/* FOOTER */
+#myfooter {
+	background-color: #809EAD;;
+  	text-align: center;
+}
+
+#myfooter .container-footer{
+	
+ display: flex;
+  align-items: center;
+  text-align: center;
+	
+}
+
+#myfooter .container-footer .mybox{
+  flex:1;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	
+}
+
+#myfooter .container-footer .link-footer a{
+	display: flex;
+	flex-direction: column;
+	text-decoration: underline;
+	color: white;
+	margin: 10px;
+
+}
+
+#myfooter .container-footer .link-footer h4{
+	color:#343a40;
+	font-size: 17px;
+}
+
+#myfooter .container-footer .copyright-text{
+	font-size: 20px;
+	color: white;
+	
+}
+
+#myfooter .container-footer .mysocial-media {
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+#myfooter .container-footer .mysocial-media #social-link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-decoration:none;
+}
+
+#myfooter .container-footer .mysocial-media h4{
+	color: #343a40;
+	font-size: 20px;
+	
+}
+
+#myfooter .container-footer .mysocial-media .my-fa-social{
+
+  padding: 8px!important;
+  font-size: 21px;
+   width: 40px!important;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 4px;
+  border-radius: 50%!important;
+  color: white;
+}
+
+
+.my-fa-social:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  
+}
+ 
+ 
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: #125688;
+}
+
+
+/* END FOOTER */
+
+
+/* INDEX */
+
+
+/* CAROUSEL FOTO */
+
+#carousel-index .mycontainer{
+
+}
+
+
+/* END CAROUSEL FOTO */
+
+/* CAROUSEL PRODOTTI */
+#carousel-prodotti{
+
+	margin-bottom: 2.5rem;
+}
+
+#carousel-prodotti .header-text{
+	margin: 40px;
+}
+
+
+/*END CAROUSEL PRODOTTI */
+
+
+/*SEZIONE LA NOSTRA STORIA */
+
+#la-nostra-storia{
+
+	height: 50vh;
+	  margin-bottom: 170px;
+}
+
+#la-nostra-storia #text-history{
+	margin: 18px;
+	
+}
+
+
+
+
+/* END SEZIONE LA NOSTRA STORIA */
+
+
+
+
+/* END INDEX */
+
+
+/* REGISTRAZIONE */
+.form-registrazione{
+  padding: 2rem 5rem;
+  
+}
+
+.form-registrazione h1{
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.form-registrazione p{
+  padding-bottom: 1rem;
+}
+
+.form-registrazione .form-group{
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.form-registrazione input[type=text], .form-registrazione input[type=password]{
+  width: 100%;
+  height: 40px;
+  padding: 0 15px;
+  border: 1px solid #bec4c4;
+  border-radius: 3px;
+
+}
+
+.form-registrazione label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.form-registrazione input:focus{
+  outline: none;
+  border-color: rgb(186,201,208);
+
+}
+
+.form-registrazione input[type=submit]{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+  width: 120px;
+  height: 50px;
+  
+}
+
+
+.form-registrazione .form-group small{
+	visibility: hidden;
+	color: red;
+	position: absolute;
+   	bottom: -15px;
+   	left: 0;
+}
+
+.form-registrazione .form-group.success input{
+	border-color: #2ecc71;
+}
+
+.form-registrazione .form-group.error input{
+	border-color: red;
+}
+
+
+.form-group.error small{
+	visibility: visible;
+}
+/* FINE REGISTRAZIONE */
+
+
+/* CONTATTI */
+
+.form-contact{
+  padding: 2rem 5rem;
+}
+.form-contact h1{
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.form-contact p{
+  padding-bottom: 1rem;
+}
+
+.form-contact button{
+  margin-bottom: 1rem;
+}
+
+.form-contact .form-group{
+  margin-bottom: 20px;
+}
+.form-contact input, .form-contact textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bec4c4;
+  border-radius: 3px;
+}
+
+.form-contact textarea{
+	resize: none;
+}
+
+.form-contact label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+.form-contact textarea{
+  height: 180px;
+}
+
+.form-contact input:focus, .form-contact textarea:focus{
+  outline: none;
+  border-color: rgb(186,201,208);
+
+}
+
+/* Info contatti */
+
+.info-contatti .mycontainer{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background: #737580;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.info-contatti i, .info-contatti h3{
+  margin-bottom: 1rem;
+}
+
+/* END CONTATTI */
+
+
+/* UTILS */
+
+.my-btn{
+	padding: 7px;
+    border: none;
+    background: #2f2f91;
+    color: white;
+    cursor: pointer;
+    width: 5.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    
+}
+
+
+.my-btn:hover{
+	background: #5252ea;
+	
+}
+
+.my-btn:active{
+	background: #2f2f91;
+	
+}
+
+.btn-download{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* END UTILS */
+
+
+/* LOGIN */
+
+#mylogin{
+	background: url("../imgs/utils/sfondo_login.jpg") no-repeat center center/cover ;
+}
+
+
+.form-group input[type=text],input[type=number]{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bec4c4;
+  border-radius: 3px;
+}
+
+ .#mylogin {
+    padding: 2rem 5rem;
+  }
+
+  #mylogin  h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+
+  #mylogin  .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+  #mylogin  input{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  #mylogin  label{
+    display: block;
+    margin-bottom: 5px;
+
+  }
+
+  #mylogin  input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+
+  }
+
+ #mylogin  input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  #mylogin  .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     	bottom: -17px;
+     	left: 0;
+  }
+
+  #mylogin  .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  #mylogin  .form-group.error input{
+  	border-color: red;
+  }
+
+  #mylogin  .form-group.error small{
+  	visibility: visible;
+  }
+
+
+
+/* END LOGIN */
+
+
+
+
+/* PAGINA TUTTE LE CATEGORIE */
+
+#categorie .container{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.categoria-grid{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.categoria-grid:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image-category{
+	position: relative;
+}
+
+.image-category:hover{
+	opacity: 1;
+}
+
+.detail-category{
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+
+/* END PAGINA TUTTE LE CATEOGORIE */
+
+
+/* START SEZIONE CATEGORIA*/
+
+ 
+
+#sezione-categoria .container {
+    padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.product-grid{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.hidden{
+	display: none;
+}
+.product-grid:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    position: relative;
+}
+
+ 
+
+.image:hover {
+    opacity: 1;
+}
+.detail{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+ 
+
+.buy{
+    background-color: #7F86AD;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #434444;
+    width: 100%;
+    margin-top: 20px;
+}
+.buy:hover{
+    background-color: #A5AAC5;
+    color: #fff;
+}
+
+ 
+
+
+/* END SEZIONE CATEGORIA*/
+
+/* REGISTRAZIONE SUCCESSO */
+
+#registration-success .mycontainer {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 79.1vh;
+    background: url(../imgs/utils/sfondo_reg_success.jpg) no-repeat center center/cover;
+}
+
+#registration-success .mycontainer .content{
+	border: 2px solid black;
+	padding: 3rem;
+	background: aliceblue;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+
+#reg-success-text p{
+	padding: 10px;
+}
+
+
+
+/* END REG SUCCESS */
+
+/* DETTAGLI PRODOTTO */
+
+.hedding{
+	font-size: 20px;
+	color:#ab8181`;
+}
+
+.left-side-product-box img{
+	width: 100%;
+}
+
+.right-side-pro-detail span{
+	font-size:15px;
+}
+.right-side-pro-detail p{
+	font-size:25px;
+	color:#a1a1a1;
+}
+.right-side-pro-detail .price-pro{
+	color:#0079fb;
+}
+.right-side-pro-detail .categoria-section{
+	font-size:18px;
+	color:#5D4C46;
+}
+.pro-box-section .pro-box img{
+	width: 100%;
+	height:200px;
+}
+
+#text-tax{
+	margin-left: 5px;
+    color: #3d3f40;
+}
+
+.addtocart{
+    color: #ffffff;
+    
+}
+
+.addtocart:focus{
+	outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* END DETTAGLI PRODOTTO */
+
+
+/* CARRELLO */
+
+#carrello{
+	min-height: 70vh;
+}
+#carrello .container .prodotti-in-cart{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+#carrello .container .info-cart{
+	margin-bottom: 1.5rem;
+}
+
+
+
+
+/* END CARRELLO */
+
+/* Risultati ricerca page */
+
+#ricerca-fail
+{
+	height:50vh;
+}
+
+
+/* END RISULTATI RICERCA PAGE */
+
+/* CHECKOUT */
+
+
+    .form-checkout{
+    padding: 2rem 5rem;
+  }
+
+  .form-checkout h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .form-checkout p{
+    padding-bottom: 1rem;
+  }
+
+  .form-checkout .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+  .form-checkout input[type=text],input[type=number]{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  .form-checkout label{
+    display: block;
+    margin-bottom: 5px;
+
+  }
+
+  .form-checkout input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+
+  }
+
+  .form-checkout input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  .form-checkout .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     	bottom: -17px;
+     	left: 0;
+  }
+
+  .form-checkout .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  .form-checkout .form-group.error input{
+  	border-color: red;
+  }
+
+  .form-checkout .form-group.error small{
+  	visibility: visible;
+  }
+
+
+
+/* END CHECKOUT*/
+
+
+/* ORDINE RIUSCITO */
+
+#ordine-success .mycontainer {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 79.1vh;
+    background: url(../imgs/utils/ord_success.jpg) no-repeat center center/cover;
+}
+
+#ordine-success .mycontainer .content{
+	border: 1px solid black;
+    padding: 1.5rem;
+    background: #ffffff;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+#ord-success-text p{
+	padding: 10px;
+}
+
+
+
+/* END ORDINE RIUSCITO */
+
+
+/* FATTURA */
+
+#my-text-logo-fattura{
+	
+	color: white;
+  padding-left: 1.5rem;
+  padding-top: 2.5rem;
+   font-size: 2.5rem;
+   margin-bottom: 0;
+   font-weight: bold;
+       line-height: 0;
+	
+}
+
+.fatt-ord{
+	    margin-top: -40px;
+}
+
+
+/* END FATTURA */
+
+
+/* USER ACCOUNT */
+
+.user-link{
+  text-decoration: none;
+    color: black;
+
+}
+
+.user-link:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.user-link:hover{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+
+/* END USER ACCOUNT */
+
+
+
+/* MODIFICA DATI UTENTE */
+
+ #modificaDatiUtente .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+ #modificaDatiUtente input[type=text],input[type=number]{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  #modificaDatiUtente label{
+    display: block;
+    margin-bottom: 5px;
+
+  }
+
+  #modificaDatiUtente input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+
+  }
+
+  #modificaDatiUtente input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  #modificaDatiUtente .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     	bottom: -17px;
+     	left: 0;
+  }
+
+  #modificaDatiUtente .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  #modificaDatiUtente .form-group.error input{
+  	border-color: red;
+  }
+
+  #modificaDatiUtente .form-group.error small{
+  	visibility: visible;
+  }
+
+
+/* END MODIFICA DATI UTENTE */
+
+
+/* MODIFICA PASSWORD UTENTE */
+
+
+
+
+ #modificaPasswordUtente .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+ #modificaPasswordUtente input[type=text],input[type=number]{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  #modificaPasswordUtente label{
+    display: block;
+    margin-bottom: 5px;
+
+  }
+
+  #modificaPasswordUtente input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+
+  }
+
+  #modificaPasswordUtente input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  #modificaPasswordUtente .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     	bottom: -17px;
+     	left: 0;
+  }
+
+  #modificaPasswordUtente .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  #modificaPasswordUtente .form-group.error input{
+  	border-color: red;
+  }
+
+  #modificaPasswordUtente .form-group.error small{
+  	visibility: visible;
+  }
+
+
+
+/* END MODIFICA PASSWORD UTENTE */
+
+/* AGGIUNGI PRODOTTO MODAL */
+
+ #aggiungiProdottoModal .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+ #aggiungiProdottoModal input[type=text],input[type=number],input[type=file]{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  #aggiungiProdottoModal label{
+    display: block;
+    margin-bottom: 2px;
+
+  }
+
+  #aggiungiProdottoModal input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+ 
+ #aggiungiProdottoModal textarea:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+  
+   #aggiungiProdottoModal select:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+ 
+
+  #aggiungiProdottoModal input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  #aggiungiProdottoModal .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     bottom: -17px;
+     left: 0;
+  }
+
+  #aggiungiProdottoModal .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  #aggiungiProdottoModal .form-group.error input{
+  	border-color: red;
+  }
+
+  #aggiungiProdottoModal .form-group.error small{
+  	visibility: visible;
+  }
+
+
+
+/* END AGGIUNGI PRODOTTO MODAL */
+
+
+/* DASHBOARD ADMIN */
+
+
+
+
+.admin-link{
+  text-decoration: none;
+    color: black;
+
+}
+
+.admin-link:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.admin-link:hover{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+/* END DASHBOARD */
+
+
+/* MODIFCA PRODOTTO */
+
+ #modificaProdotto .form-group{
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+ #modificaProdotto input[type=text],input[type=number],input[type=file]{
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+
+  }
+
+  #modificaProdotto label{
+    margin-bottom: 2px;
+
+  }
+
+ #modificaProdotto input:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+ 
+ #modificaProdotto textarea:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+  
+   #modificaProdotto select:focus{
+    outline: none;
+    box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+ 
+
+  #modificaProdotto input[type=submit]{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 100px;
+  }
+
+  #modificaProdotto .form-group small{
+  	visibility: hidden;
+  	color: red;
+  	position: absolute;
+     bottom: -17px;
+     left: 0;
+  }
+
+  #modificaProdotto .form-group.success input{
+  	border-color: #2ecc71;
+  }
+
+  #modificaProdotto .form-group.error input{
+  	border-color: red;
+  }
+
+  #modificaProdotto .form-group.error small{
+  	visibility: visible;
+  }
+
+
+/* END MODIFICA PRODOTTO */
