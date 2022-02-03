@@ -1,6 +1,6 @@
 # DecorZone
 
-![DecorZone Logo](.github/DecorZoneLogo.png)
+![DecorZone Logo](https://github.com/mattdr5/DecorZone/blob/main/DecorZoneLogo.png)
 
 > Progetto realizzato per il corso di Tecnologie Software per il Web - Università degli studi di Salerno 2019/20
 
